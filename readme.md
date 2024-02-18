@@ -1,4 +1,4 @@
-#repository of my tryes to learn about artificial intelligence
+#repository of my tries to learn about artificial intelligence
 Artificial Intelligence for Everyone: An Introduction to AI for Absolute Beginners
 Paul McWhorter
 
