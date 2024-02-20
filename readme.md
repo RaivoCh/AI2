@@ -5,8 +5,8 @@ Paul McWhorter
 youtube channel
 https://www.youtube.com/playlist?list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm
 
-AI For Everyone LESSON 1: Introduction to Artificial Intelligence for Absolute Beginners
-AI for Everyone LESSON 2: Running Two Different Versions of Python on the Same Computer
+AI For Everyone LESSON 1: Introduction to Artificial Intelligence for Absolute Beginners<br>
+AI for Everyone LESSON 2: Running Two Different Versions of Python on the Same Computer  
 AI for Everyone LESSON 3: Understanding and Using Python Virtual Environments
 AI for Everyone LESSON 4: Installing and Configuring Visual Studio Code on Windows 10
 AI for Everyone LESSON 4 SUPPLEMENTAL: Visual Studio Code Not Finding Python or Virtual Environments
