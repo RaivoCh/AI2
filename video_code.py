@@ -1,7 +1,5 @@
-#AI for Everyone LESSON 6: Faster Launch of WEBcam and Smoother Video in OpenCV on Windows
-#https://www.youtube.com/watch?v=bJIzOniUaAw&list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm&index=8
-
-#starting code
+#starting code for webcam
+#set dimensions, fps, codecs
 import cv2
 print(cv2.__version__)
 width=640
