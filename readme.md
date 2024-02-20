@@ -12,4 +12,4 @@ AI for Everyone LESSON 4: Installing and Configuring Visual Studio Code on Windo
 AI for Everyone LESSON 4 SUPPLEMENTAL: Visual Studio Code Not Finding Python or Virtual Environments<br>
 AI for Everyone LESSON 5: Installing OpenCV in Windows and Launching WEBCAM<br>
 AI for Everyone LESSON 6: Faster Launch of WEBcam and Smoother Video in OpenCV on Windows<br>
-AI for Everyone LESSON 7: Understanding Pictures and Images as Data Arrays<a>video</a hrev=https://www.youtube.com/playlist?list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm><br>
+AI for Everyone LESSON 7: Understanding Pictures and Images as Data Arrays[video](hrev=https://www.youtube.com/playlist?list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm)<br>
