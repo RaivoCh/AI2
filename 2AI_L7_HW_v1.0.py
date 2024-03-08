@@ -11,7 +11,7 @@ print(cv2.__version__)
 import numpy as np
 
 sizeB = 250    #size of board (pixels)
-row_col = 8    #number of rows/columns of chestboard
+row_col = 8    #number of rows/columns of chessboard
 
 rowSize = int(sizeB//row_col)
 
@@ -24,7 +24,9 @@ while True:
 
     for i in range(0,row_col,1):
         
-        frame[2*i*rowSize:rowSize+i*2*rowSize,2*i*rowSize:rowSize+i*2*rowSize]=(0,0,125)
+        frame[2*i*rowSize:rowSize+i*2*rowSize,:]=(0,0,125)
+    #    frame[:,2*i*rowSize:rowSize+i*2*rowSize]=(0,0,125)
+        print(i)
     
     cv2.imshow("my window",frame)
     if cv2.waitKey(1) & 0xff==ord("q"):
