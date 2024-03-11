@@ -13,3 +13,4 @@ AI for Everyone LESSON 5: Installing OpenCV in Windows and Launching WEBCAM<br>
 AI for Everyone LESSON 6: Faster Launch of WEBcam and Smoother Video in OpenCV on Windows<br>
 AI for Everyone LESSON 7: Understanding Pictures and Images as Data Arrays [(video)](https://www.youtube.com/watch?v=W43MpRroplA&list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm&index=10)<br>
 AI for Everyone LESSON 7: HOMEWORK SOLUTION, Creating Checkerboard Pattern in OPENCV[(video)](https://www.youtube.com/watch?v=Fpqa5mcHoTE&list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm&index=16)<br>
+AI for Everyone LESSON 8: Putting Text, Rectangles and Circles on Images in OpenCV[(video)](https://www.youtube.com/watch?v=97HA3NeYjus&list=PLGs0VKk2DiYyXlbJVaE8y1qr24YldYNDm&index=12)<br>
