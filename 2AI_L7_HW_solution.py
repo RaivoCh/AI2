@@ -5,7 +5,7 @@
 #chessboard
 #chessboar is square, so same number of rows and colums
 #homework solution
-#this solution does not work for even number of squares, not solved or mentioned in video
+#this solution does not work for even number of squares, not solved or mentioned in video!
 
 import cv2
 print(cv2.__version__)
