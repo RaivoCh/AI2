@@ -3,7 +3,9 @@
 
 ##HOMEWORK
 #chessboard
-#chessboar is squere, so same number of rows and colums
+#chessboar is square, so same number of rows and colums
+
+#v1.3 is fully functional
 
 
 import cv2
@@ -23,18 +25,14 @@ while True:
     frame=np.zeros([sizeB, sizeB,3],dtype=np.uint8)
 
     for i in range(0,row_col,2):
-        for j in range(0,row_col,2):        
-    #    frame[2*i*rowSize:rowSize+i*2*rowSize,2*i*rowSize:rowSize+i*2*rowSize]=(0,0,125)
+        for j in range(0,row_col,2):     
             frame[i*rowSize:(i+1)*rowSize,j*rowSize:(j+1)*rowSize]=(0,0,125)
-    #    frame[:,2*i*rowSize:rowSize+i*2*rowSize]=(0,0,125)
-        print(i)
+    
+        #print(i)
 
-    for k in range(0,row_col,2):
-        for l in range(1,row_col,2):        
-    #    frame[2*i*rowSize:rowSize+i*2*rowSize,2*i*rowSize:rowSize+i*2*rowSize]=(0,0,125)
-            frame[K*rowSize:(k+1)*rowSize,l*rowSize:(l+1)*rowSize]=(0,0,125)
-
-
+    for k in range(1,row_col,2):
+        for l in range(1,row_col,2):    
+            frame[k*rowSize:(k+1)*rowSize,l*rowSize:(l+1)*rowSize]=(0,0,125)
     
     cv2.imshow("my window",frame)
     if cv2.waitKey(1) & 0xff==ord("q"):
