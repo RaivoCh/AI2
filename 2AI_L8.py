@@ -12,7 +12,9 @@ cam.set(cv2.CAP_PROP_FPS,30)   #set frames per second
 cam.set(cv2.CAP_PROP_FOURCC,cv2.VideoWriter_fourcc(*"MJPG"))    #codec
 while True:
     ignore,  frame = cam.read()
-    frame[140:220,280:360]=(0,0,0)     #manipulating with these pixels, this case creates black square in the middle
+    #row column
+    #frame[140:220,250:390]=(0,0,0)     #there is easier way. manipulating with these pixels, this case creates black square in the middle
+    cv2.rectange(frame,(250,140),(390,220))    #upper left lower right position
     cv2.imshow('my WEBcam', frame)
     cv2.moveWindow('my WEBcam',0,0)
     if cv2.waitKey(1) & 0xff ==ord('q'):
