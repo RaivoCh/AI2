@@ -13,8 +13,9 @@ cam.set(cv2.CAP_PROP_FOURCC,cv2.VideoWriter_fourcc(*"MJPG"))    #codec
 while True:
     ignore,  frame = cam.read()
     frameROI = frame[150:210,250:390]    #region fo interest si now box in the middle 80x140 
+    #frameROIRGB = cv2.cvtColor(frameROI,cv2.COLOR_BGR2RGB)   #test
     frameGray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)     #if I cut out part of the original BRG image, I make GRAY
-    frameBackBGR = cv2.cvtColor(frameGray,cv2.COLOR_GRAY2BGR) #  if I want to insert back into the original, I have to
+    frameBackBGRbutGray = cv2.cvtColor(frameGray,cv2.COLOR_GRAY2BGR) #  if I want to insert back into the original, I have to
                                                                 #  convert back to BRG or it'll throw an error:
                                                                 #  "ValueError: could not broadcast input array 
                                                                 #  from shape (60,140) into shape (60,140,3)"
@@ -22,12 +23,15 @@ while True:
     # cv2.imshow("my Gray big frame", frameBackBGR)    #show my new gray frame, that has three colour values
     # cv2.moveWindow("my Gray big frame", 50,50)
 
-    frame[150:210,250:390] = frameBackBGR    #little gray spot in the middle of the original frame
+    frame[150:210,250:390] = frameROI    #little gray spot in the middle of the original frame
     cv2.imshow("my ROI", frameROI)    #show my new little BRG frame
     cv2.moveWindow("my ROI", 650,0)    # and move it away from original frame
 
-    cv2.imshow("my Gray big frame", frameBackBGR)    #show my new gray frame, that has three colour values
+    cv2.imshow("my Gray big frame", frameBackBGRbutGray)    #show my new gray frame, that has three colour values
     cv2.moveWindow("my Gray big frame", 0,0)
+
+    cv2.imshow("my RGB frame", frameROIRGB)    #test
+    cv2.moveWindow("my RGB frame", 650,90)
 
 
     # cv2.imshow('my WEBcam', frame)
